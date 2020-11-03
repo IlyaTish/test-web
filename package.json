@@ -2,7 +2,7 @@
   "author": "Ilya Tishenko",
   "name": "test-web",
   "version": "1.0.0",
-  "description": "Test",
+  "description": "Тест для web-агентства Meiji Media",
   "main": "gulpfile.js",
   "dependencies": {
     "browser-sync": "^2.26.7",
