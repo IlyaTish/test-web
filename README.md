@@ -1,6 +1,6 @@
-# Teachbase
+# Meiji Media
 
-<strong>Testweb</strong> — web-агентство Meiji Media
+<strong>Meiji Media</strong> — web-агентство Meiji Media
 
 ### Ссылки на страницы
 
