@@ -1,0 +1,16 @@
+extends template.pug
+
+block content
+  //- Header block ('.header')
+  include assets/blocks/common/header/block.pug
+
+
+  - const page = 'index'
+
+  main(class='content '+ page +'')
+    //- Main block ('.main')
+    include assets/blocks/main/block.pug
+
+
+  //- Popup block ('.popup')
+  include assets/blocks/common/popup/block.pug

@@ -1,0 +1,69 @@
+.main {
+  padding: 4rem 0 6rem;
+
+  &__cont {
+    max-width: 730px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  &__title {
+    margin: 0 0 1.6rem;
+    font-size: 1.625rem;
+    text-transform: uppercase;
+  }
+
+  &__p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.7rem;
+  }
+
+  .btn {
+    margin: 3.1rem auto 0;
+  }
+}
+
+.main-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 2rem;
+  margin: 3.1rem 0 0;
+}
+
+.main-item {
+  &__icon {
+    display: block;
+    margin: 0 auto;
+    max-width: 10rem;
+  }
+
+  &__title {
+    display: block;
+    margin: 1.9rem 0 0;
+    font-size: 1.625rem;
+    line-height: 2.2rem;
+  }
+
+  &__p {
+    margin: .8rem 0 0;
+    font-size: 1rem;
+    line-height: 1.8rem;
+  }
+
+  path {
+    transition: fill .4s ease;
+  }
+
+  &:hover {
+    .path {
+      stroke: $main;
+      fill: rgba(119, 185, 0, 0.25);
+    }
+  }
+
+  .accent {
+    color: $main;
+    font-weight: 600;
+  }
+}

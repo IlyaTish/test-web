@@ -1,0 +1,17 @@
+/* Import styles */
+
+@import 'variables';
+@import 'normalize';
+@import 'fonts';
+@import 'common';
+
+
+// Import blocks
+
+@import '../blocks/common/header/style';
+@import '../blocks/main/style';
+@import '../blocks/common/popup/style';
+
+// Import responsive styles
+
+@import 'responsive';

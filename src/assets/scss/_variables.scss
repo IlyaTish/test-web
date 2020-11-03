@@ -1,0 +1,15 @@
+/* Variables */
+
+$main: #77B900;
+$black: #292933;
+$accent: linear-gradient(180deg, #F88858 0%, #F1AD8F 0.01%, rgba(255, 97, 47, 0.71) 100%);
+
+@mixin retina {
+  @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min--moz-device-pixel-ratio: 1.5),
+  only screen and (-o-min-device-pixel-ratio: 3/2),
+  only screen and (min-resolution: 1.5dppx),
+  only screen and (min-resolution: 144dpi) {
+    @content
+  }
+}
